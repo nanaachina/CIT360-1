@@ -2,17 +2,19 @@
 
 ***
 
+[source](http://www.javaguides.net/2018/08/application-controller-design-pattern-in-java.html)
+
 ## Problem
 
-_(Problem section describes the design issues faced by the developer)_
+*(Problem section describes the design issues faced by the developer)*
 
-You want to centralize and modularize _action_ and _view_ management.
+You want to centralize and modularize *action* and *view* management.
 
 In the presentation tier, there are typically two decisions to be made upon the arrival of each request:
 
-* First, the incoming request must be resolved to an action that services the request. This is called _action management_.
+* First, the incoming request must be resolved to an action that services the request. This is called *action management*.
 
-* Second, the appropriate view is located and dispatched. This is called _view management_.
+* Second, the appropriate view is located and dispatched. This is called *view management*.
 
 ## Forces
 
@@ -24,9 +26,9 @@ In the presentation tier, there are typically two decisions to be made upon the 
 
 ## Solution
 
-Use an _Application Controller_ to centralize retrieval and invocation of request-processing components, such as commands and views.
+Use an *Application Controller* to centralize retrieval and invocation of request-processing components, such as commands and views.
 
-In the presentation tier, we map incoming request parameters to specific request-processing classes, and to view components that handle each request. _ _
+In the presentation tier, we map incoming request parameters to specific request-processing classes, and to view components that handle each request. 
 
 *Action management* refers to locating and invoking actions to handle specific requests, while *view management* refers to navigating and dispatching to the appropriate view or view-generation mechanism.
 
@@ -83,7 +85,7 @@ Let's understand *Application Controller Pattern* with an example.
     </body>
     </html>
 
-**Step 2:** _Application Controller Pattern_ is _J2EE Design Pattern_ so let's create deployment descriptor that is _web.xml_.
+**Step 2:** *Application Controller Pattern* is *J2EE Design Pattern* so let's create deployment descriptor that is *web.xml*.
     
     <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
     xmlns="http://java.sun.com/xml/ns/javaee"   
@@ -107,7 +109,7 @@ Let's understand *Application Controller Pattern* with an example.
      
     </web-app>
 
-_Step 3: _Let's create Value Object Or DTO like _StudentVO.java_.
+*Step 3:* Let's create Value Object Or DTO like *StudentVO.java*.
     
     public class StudentVO {
         private String id;
@@ -136,13 +138,13 @@ _Step 3: _Let's create Value Object Or DTO like _StudentVO.java_.
         }
     }
 
-Now create _Command_ interface.
+Now create *Command* interface.
     
     public interface Command {
         String execute(RequestContext requestContext);
     }
 
-_StudentViewCommand_ class which implements _Command_ interface
+*StudentViewCommand* class which implements *Command* interface
     
     public class StudentViewCommand implements Command {
     
@@ -164,7 +166,7 @@ _StudentViewCommand_ class which implements _Command_ interface
     
     }
 
-Create _ContextFactory_ to handle context information.
+Create *ContextFactory* to handle context information.
     
     import java.util.Map;
     
@@ -193,7 +195,7 @@ Create _ContextFactory_ to handle context information.
     
     }
 
-Let's create _RequestContext_ class.
+Let's create *RequestContext* class.
     
     import java.util.HashMap;
     import java.util.Map;
@@ -242,7 +244,7 @@ Let's create _RequestContext_ class.
     
     }
 
-**Step 4:** It's time to create _FrontController.java_.
+**Step 4:** It's time to create *FrontController.java*.
     
     import javax.servlet.ServletException;
     import javax.servlet.http.HttpServlet;
@@ -282,7 +284,7 @@ Let's create _RequestContext_ class.
         }
     }
 
-**Step 5 :** Create _ApplicationController_ class and respective classes required to demonstrate this pattern.
+**Step 5 :** Create *ApplicationController* class and respective classes required to demonstrate this pattern.
     
     public class ApplicationController {
     
