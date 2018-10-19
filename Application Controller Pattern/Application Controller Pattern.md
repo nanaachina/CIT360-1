@@ -28,9 +28,13 @@ Use an _Application Controller_ to centralize retrieval and invocation of requ
 
 In the presentation tier, we map incoming request parameters to specific request-processing classes, and to view components that handle each request. _ _
 
-_Action management_ refers to locating and invoking actions to handle specific requests, while _view management_ refers to navigating and dispatching to the appropriate view or view-generation mechanism.
+*Action management* refers to locating and invoking actions to handle specific requests, while *view management* refers to navigating and dispatching to the appropriate view or view-generation mechanism.
 
 ## Structure
+
+![](https://github.com/seth9341/CIT360/blob/master/Application%20Controller%20Pattern/application-controller-class-diagram.PNG)
+
+![](https://github.com/seth9341/CIT360/blob/master/Application%20Controller%20Pattern/application-controller-sequence-diagram.PNG)
 
 ### Participants and Responsibilities
 
@@ -46,9 +50,9 @@ _Action management_ refers to locating and invoking actions to handle specific 
 
 ## Implementation
 
-Let's understand _Application Controller Pattern_ with an example.
+Let's understand *Application Controller Pattern* with an example.
 
-**Step 1:** Let's create view components like _index.jsp_ and _viewStudent.jsp_ pages.
+**Step 1:** Let's create view components like *index.jsp* and *viewStudent.jsp* pages.
     
     <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -364,7 +368,7 @@ Let's create _RequestContext_ class.
     }
 
 Output :
-    
+
     http://localhost:8001/javaT/
     
     http://localhost:8001/javaT/studentView.do?id=10
@@ -372,7 +376,7 @@ Output :
     browser :
     Student Id : 100
     Student Name : Ramesh
-    
+
 
 ## Consequences
 
