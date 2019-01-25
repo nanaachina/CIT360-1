@@ -69,7 +69,7 @@ public class JavaCollections {
         System.out.println("Meh list is empty: " + checkmehList);
         
         // Check if a name is in the list
-        System.out.println("Test 3: Checking if a name exists in an ArrayList");
+        System.out.println("Test 3: Check if a name already exists in an ArrayList");
         
         boolean containsShanelle = friendList.contains("Shanelle");
         boolean containsRichard = friendList.contains("Richard");
