@@ -42,24 +42,24 @@ public class JavaCollections {
     
     private void arrayListDemo() {
         
-        // Create the ArrayList
+        // Create ArrayList
         ArrayList<String> friendList = new ArrayList<>();
         ArrayList<String> mehList = new ArrayList<>();
         
-        // Add items to the ArrayList
+        // Add items to ArrayList
         friendList.add("Shawn");
         friendList.add("Randy");
         friendList.add("Reed");
         
-        // Add a new item, but insert it earlier in the ArrayList
+        // Add a new item, in an different position in ArrayList
         friendList.add(1, "Nathan"); // The '1' indicates that this item will be added to the 2nd position
         
-        // Display the contents of the ArrayList
+        // Display the contents of an ArrayList
         System.out.println("Test 1: Displaying contents of ArrayLists");
         System.out.println("Friends:\n" + friendList);
         System.out.println("Meh:\n" + mehList);
         
-        // Check to see if an ArrayList is empty
+        // Check to see if ArrayList is empty
         System.out.println("Test 2: Checking if the ArrayLists are empty");
         
         boolean checkFriendList = friendList.isEmpty();
@@ -68,7 +68,7 @@ public class JavaCollections {
         System.out.println("Friend list is empty: " + checkFriendList);
         System.out.println("Meh list is empty: " + checkmehList);
         
-        // Check if a name is in the list
+        // Check for content
         System.out.println("Test 3: Check if a name already exists in an ArrayList");
         
         boolean containsShanelle = friendList.contains("Shanelle");
