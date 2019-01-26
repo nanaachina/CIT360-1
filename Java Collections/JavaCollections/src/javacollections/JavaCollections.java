@@ -60,8 +60,6 @@ public class JavaCollections {
         
         
         
-     
-        
         // Tree example
         System.out.println("TreeSet Example. Now With Actual Trees!");
         TreeSet baum = new TreeSet();
@@ -78,7 +76,6 @@ public class JavaCollections {
         Object element = list.next();
         System.out.print(element + "\n");
         }
-        
         
         
         
