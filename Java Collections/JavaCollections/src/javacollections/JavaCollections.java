@@ -81,15 +81,15 @@ public class JavaCollections {
         
         // Queue example
         System.out.println("\nQueue Example. With birds in German, because why not.");
-        Queue<String> Warteschlange = new LinkedList<>();
+        Queue<String> warteschlange = new LinkedList<>();
         
-        Warteschlange.add("Huhn");
-        Warteschlange.add("Hahn");
-        Warteschlange.add("Taube");
-        Warteschlange.add("Ente");
-        Warteschlange.add("Amsel");
+        warteschlange.add("Huhn");
+        warteschlange.add("Hahn");
+        warteschlange.add("Taube");
+        warteschlange.add("Ente");
+        warteschlange.add("Amsel");
         
-        Warteschlange.forEach(name -> {
+        warteschlange.forEach(name -> {
            System.out.println(name);
         });
         
