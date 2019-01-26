@@ -39,7 +39,7 @@ public class JavaCollections {
         
         // Set example
         System.out.println("Set Collections Example");
-        int advance[] = {1,3,5,7,2,6,4};
+        int advance[] = {2,9,4,0,3,1,5};
         Set<Integer> set = new HashSet<>();
         
         for (int i = 0; i < 7; i++) {
