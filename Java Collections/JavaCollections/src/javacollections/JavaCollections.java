@@ -26,16 +26,16 @@ public class JavaCollections {
         System.out.println("ArrayList Demo:");
         collections.arrayListDemo();
         
-        System.out.println("\nTreeSet Demo");
+        System.out.println("\nTreeSet Demo:");
         collections.treeSetDemo();
         
-        System.out.println("\nLinkedList Demo");
+        System.out.println("\nLinkedList Demo:");
         collections.linkedListDemo();
         
-        System.out.println("\nHashMap Demo");
+        System.out.println("\nHashMap Demo:");
         collections.hashMapDemo();
         
-        System.out.println("\nTreeMap Demo");
+        System.out.println("\nTreeMap Demo:");
         collections.treeMapDemo();
         
     }
@@ -43,74 +43,74 @@ public class JavaCollections {
     private void arrayListDemo() {
         
         // Create ArrayList
-        ArrayList<String> friendList = new ArrayList<>();
+        ArrayList<String> friendsList = new ArrayList<>();
         ArrayList<String> mehList = new ArrayList<>();
         
         // Add items to ArrayList
-        friendList.add("Shawn");
-        friendList.add("Randy");
-        friendList.add("Reed");
+        friendsList.add("Shawn");
+        friendsList.add("Randy");
+        friendsList.add("Reed");
         
         // Add a new item, in an different position in ArrayList
-        friendList.add(1, "Nathan"); // The '1' indicates that this item will be added to the 2nd position
+        friendsList.add(1, "Nathan"); 
         
         // Display the contents of an ArrayList
         System.out.println("Test 1: Displaying contents of ArrayLists");
-        System.out.println("Friends:\n" + friendList);
+        System.out.println("Friends:\n" + friendsList);
         System.out.println("Meh:\n" + mehList);
         
-        // Check to see if ArrayList is empty
+        // Check to see if the ArrayList is empty
         System.out.println("Test 2: Checking if the ArrayLists are empty");
         
-        boolean checkFriendList = friendList.isEmpty();
+        boolean checkFriendsList = friendsList.isEmpty();
         boolean checkmehList = mehList.isEmpty();
         
-        System.out.println("Friend list is empty: " + checkFriendList);
-        System.out.println("Meh list is empty: " + checkmehList);
+        System.out.println("Your friends list is empty: " + checkFriendsList);
+        System.out.println("Your list of people you feel 'Meh' about is empty: " + checkmehList);
         
         // Check for content
-        System.out.println("Test 3: Check if a name already exists in an ArrayList");
+        System.out.println("Test 3: Check if the name already exists in an ArrayList");
         
-        boolean containsShanelle = friendList.contains("Shanelle");
-        boolean containsRichard = friendList.contains("Richard");
+        boolean containsShanelle = friendsList.contains("Shanelle");
+        boolean containsRichard = friendsList.contains("Richard");
         
         System.out.println("Shanelle is in friend list: " + containsShanelle);
         System.out.println("Richard is in friend list: " + containsRichard);
         
         // Get contents of ArrayList based on index
-        System.out.println("Test 4: Getting contents of ArrayList based on index");
+        System.out.println("Test 4: Get contents of ArrayList based on index");
         
         try {
-            String name = friendList.get(1);
+            String name = friendsList.get(1);
         
             System.out.println("Friend # 2 is " + name);
         }
         
         catch (Exception e) {
             
-            System.out.println("Out of range.  You only have " + friendList.size() + " friends.");
+            System.out.println("Out of range.  You only have " + friendsList.size() + " friends.… You suck. :(");
             
         }
         
         try {
-            String emptyName = friendList.get(10);
+            String emptyName = friendsList.get(10);
         
             System.out.println("Friend # 10 is " + emptyName);
         }
         
         catch (Exception e) {
             
-            System.out.println("Out of range.  You only have " + friendList.size() + " friends.");
+            System.out.println("Out of range.  You only have " + friendsList.size() + " friends.");
             
         }
         
         // Removing elements from the ArrayList
         System.out.println("Test 5: Removing elements from the ArrayList");
         
-        friendList.remove("Chad");
-        friendList.remove("Richard");
+        friendsList.remove("Chad");
+        friendsList.remove("Richard");
         
-        System.out.println("Friends:\n" + friendList);
+        System.out.println("Friends:\n" + friendsList);
         
     }
     
@@ -182,7 +182,7 @@ public class JavaCollections {
             
         }
         
-        // Add to beginning and end of existing list
+        // Add to the beginning and end of existing list
         System.out.println("Add 'One' to the beginning and 'Seven' to the end of the list");
         list.addFirst("One");
         list.addLast("Seven");
@@ -199,7 +199,7 @@ public class JavaCollections {
         }
         
         // Attempt to add a new value
-        System.out.println("Add a new value...where will it go?");
+        System.out.println("Add a new value… Maybe?!");
         list.add("Zero");
         
         System.out.println(list); // "Zero" gets added to the end of the list, unless you specify that it be inserted first
@@ -210,22 +210,22 @@ public class JavaCollections {
         
         System.out.println(list);
         
-        // What happens when you remove "Zero" if the value occurs multiple times?
-        System.out.println("Remove 'Zero'...but which one will be removed?");
+        // What happens when you remove "Zero"?
+        System.out.println("Remove 'Zero'… but which one is it?");
         list.remove("Zero");
         
-        // It automatically removes the first occurence of the word "Zero."  Let's add it back to the beginning and try to get rid of the last occurence
+        // It will remove the first occurrence of the word "Zero." Let's add it back to the beginning and try to get rid of the last occurrence
         list.addFirst("Zero");
         
         System.out.println(list);
         
-        System.out.println("It removed the first occurrence of 'zero,' so let's add it back in and then remove the last iteration of 'Zero'");
+        System.out.println("It removed the first occurrence of 'zero,' Hmm… let's add it back in and remove the last iteration of 'Zero' instead.");
         list.removeLastOccurrence("Zero");
         
         System.out.println(list);
         
         // Attempt to add an Integer
-        System.out.println("Does an exception get thrown when we try to add an integer to a list of strings?");
+        System.out.println("Does an exception throw when we try to add an integer to the list of strings?");
         list.add(1);
         
         System.out.println(list);
@@ -236,19 +236,19 @@ public class JavaCollections {
         
         // Create an empty HashMap
         HashMap map = new HashMap();
-        ArrayList<String> friendList = new ArrayList<>();
+        ArrayList<String> friendsList = new ArrayList<>();
         
         // Add items to the ArrayList
-        friendList.add("Chad");
-        friendList.add("Shanelle");
-        friendList.add("Autumn");
+        friendsList.add("Chad");
+        friendsList.add("Shanelle");
+        friendsList.add("Autumn");
         
         // Add values to the HashMap
         map.put("Name", "Chad");
-        map.put("Age", 26);
+        map.put("Age", 38);
         
         // Attempt to add an ArrayList as a value
-        map.put("Friends", friendList);
+        map.put("Friends", friendsList);
         
         System.out.println(map);
         
@@ -258,7 +258,7 @@ public class JavaCollections {
         // To get the friends list to print out properly we have to iterate through it
         System.out.println("Friends: ");
         
-        ListIterator iterator = friendList.listIterator();
+        ListIterator iterator = friendsList.listIterator();
         
         while (iterator.hasNext()) {
             
@@ -280,8 +280,8 @@ public class JavaCollections {
         intMap.put(4, "Autumn");
         
         abcMap.put("Name", "Chad");
-        abcMap.put("Age", 26);
-        abcMap.put("Hometown", "Denham Springs");
+        abcMap.put("Age", 38);
+        abcMap.put("Hometown", "Minneapolis");
         
         System.out.println(intMap.toString());
         
@@ -291,8 +291,8 @@ public class JavaCollections {
         intMap.put(2, "Shanelle");
         
         // Add new value to abcMap
-        abcMap.put("Acrobatic Skill", "Bad");
-        abcMap.put("Zoology Skill", "Decent");
+        abcMap.put("Acrobatic Skill", "Needs improvement… To say the least.");
+        abcMap.put("Parenting", "Awesome!");
         
         System.out.println(intMap.toString());
         
