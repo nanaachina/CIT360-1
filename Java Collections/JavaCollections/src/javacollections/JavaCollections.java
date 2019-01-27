@@ -59,7 +59,6 @@ public class JavaCollections {
                 + ", Presided from " + v + "\n"));
         
         
-        
         // Tree example
         System.out.println("TreeSet Example. Now With Actual Trees!");
         TreeSet baum = new TreeSet();
@@ -78,7 +77,6 @@ public class JavaCollections {
         }
         
         
-        
         // Queue example
         System.out.println("\nQueue Example. With birds in German, because why not.");
         Queue<String> warteschlange = new LinkedList<>();
@@ -92,8 +90,6 @@ public class JavaCollections {
         warteschlange.forEach(name -> {
            System.out.println(name);
         });
-        
-        
 
     }
     
