@@ -9,18 +9,19 @@ package threadsexecutorsrunnables;
  *
  * @author seth
  */
-
 public class RunnableExample implements Runnable {
 
-    @Override
-    public void run() {
-        try{
-        for (int i = 0; i < 10; i += 1) {
-            System.out.println(i);
-                Thread.sleep(300);
-
-        }
-        } catch (InterruptedException e) {
-        }
-    }
+        @Override
+	public void run(){
+		for (int i = 0; i < 3; i++) {
+			System.out.println("Thread id: "
+                +Thread.currentThread().getName());
+			try {
+				Thread.sleep(100);
+			}
+			catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
 }
