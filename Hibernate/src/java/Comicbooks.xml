@@ -2,7 +2,7 @@
 <entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
         version="2.0">
 
-    <entity class="java.ComicbooksEntity">
+    <entity class="java.Comicbooks">
         <table name="comicbooks" schema="test" catalog=""/>
         <attributes>
             <id name="id">
