@@ -1,4 +1,4 @@
-package java;
+package comicbook;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;

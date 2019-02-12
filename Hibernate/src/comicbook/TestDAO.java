@@ -1,4 +1,4 @@
-package java;
+package comicbook;
 
 
 import org.hibernate.Session;
@@ -38,7 +38,7 @@ public class TestDAO {
         try {
             session = factory.openSession();
             session.getTransaction().begin();
-            String sql = "from java.Authors";
+            String sql = "from comicbook.Authors";
             List<Authors> cs = (List<Authors>)session.createQuery(sql).getResultList();
             session.getTransaction().commit();
             return cs;
@@ -60,7 +60,7 @@ public class TestDAO {
         try {
             session = factory.openSession();
             session.getTransaction().begin();
-            String sql = "from java.Authors where id=" + Integer.toString(id);
+            String sql = "from comicbook.Authors where id=" + Integer.toString(id);
             Authors c = (Authors)session.createQuery(sql).getSingleResult();
             session.getTransaction().commit();
             return c;

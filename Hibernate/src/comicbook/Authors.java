@@ -1,4 +1,4 @@
-package java;
+package comicbook;
 
 import javax.persistence.*;
 import java.util.Objects;

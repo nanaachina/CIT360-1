@@ -2,17 +2,17 @@
 <entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
         version="2.0">
 
-    <entity class="java.Comicbooks">
-        <table name="comicbooks" schema="test" catalog=""/>
+    <entity class="comicbook.Authors">
+        <table name="authors" schema="test" catalog=""/>
         <attributes>
             <id name="id">
                 <column name="id"/>
             </id>
-            <basic name="title">
-                <column name="title"/>
+            <basic name="name">
+                <column name="name"/>
             </basic>
-            <basic name="genre">
-                <column name="genre"/>
+            <basic name="age">
+                <column name="age"/>
             </basic>
         </attributes>
     </entity>
