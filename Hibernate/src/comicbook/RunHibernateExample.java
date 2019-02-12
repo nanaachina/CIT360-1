@@ -7,7 +7,7 @@ public class RunHibernateExample {
 
     public static void main(String[] args) {
 
-        TestDAO t = TestDAO.getInstance();
+        AuthorsDAO t = AuthorsDAO.getInstance();
 
         List<Authors> c = t.getAuthors();
         for (Authors i : c) {

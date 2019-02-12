@@ -5,25 +5,25 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import java.util.*;
 
-/** TestDAO implemented using a singleton pattern
+/** AuthorsDAO implemented using a singleton pattern
  *  Used to get Authors data from my MYSQL database*/
-public class TestDAO {
+public class AuthorsDAO {
 
     SessionFactory factory = null;
     Session session = null;
 
-    private static TestDAO single_instance = null;
+    private static AuthorsDAO single_instance = null;
 
-    private TestDAO()
+    private AuthorsDAO()
     {
         factory = HibernateUtils.getSessionFactory();
     }
 
 
-    public static TestDAO getInstance()
+    public static AuthorsDAO getInstance()
     {
         if (single_instance == null) {
-            single_instance = new TestDAO();
+            single_instance = new AuthorsDAO();
         }
 
         return single_instance;
