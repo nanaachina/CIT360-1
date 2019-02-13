@@ -7,8 +7,8 @@ package JSON;
 
 import java.io.IOException;
 import java.io.StringWriter;
-import org.json.simple.*;
-import org.json.simple.parser.*;
+import json.simple.*;
+import json.simple.parser.*;
 
 /**
  *
@@ -20,10 +20,10 @@ public class JSONExample {
         //JSON Object example
         JSONObject obj = new JSONObject();
         
-        obj.put("name", "Kailey");
-        obj.put("age", new Integer(25));
-        obj.put("is_married", new Boolean(true));
-        obj.put("occupation", "Student");
+        obj.put("name", "Seth");
+        obj.put("age", new Integer(37));
+        obj.put("is_married", new Boolean(false));
+        obj.put("occupation", "nerd");
         
         System.out.print(obj);
         
