@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package qcjsonjson;
+package JSON;
 
 import org.quickconnectfamily.json.JSONInputStream;
 import org.quickconnectfamily.json.JSONOutputStream;
@@ -13,12 +13,13 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Scanner;
 
+
 /**
  *
  * @author seth
  */
+
 public class JSONEchoClient {
-    
     public static void main(String[] args){
         JSONEchoClient theClient = new JSONEchoClient();
         theClient.go();
