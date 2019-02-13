@@ -7,7 +7,7 @@ package ApplicationControllerPattern;
 
 /**
  *
- * @author Kailey
+ * @author seth
  */
 public class Add implements HandleMath{
     

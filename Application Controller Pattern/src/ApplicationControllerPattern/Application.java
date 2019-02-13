@@ -33,7 +33,7 @@ public class Application {
         if (command.equals("+") || command.equals("-") || command.equals("/") || command.equals("*")){
 
         } else {
-            System.out.println("You must enter a valid calulation operator."
+            System.out.println("You MUST enter a valid calulation operator."
                     + "\nRestart and try again with +, -, /, or * with no spaces");
             return;
         }
@@ -42,7 +42,7 @@ public class Application {
         num2 = Integer.parseInt(in.nextLine());
 
         if (num2 == 0 && command.equals("/")){
-            System.out.println("Divide by 0 error. Restart and try again.");
+            System.out.println("Error! Does not compute! Cannot divide by 0. Please restart and try again.");
             return;
         } else{
             System.out.print(num1 + " " + command + " " + num2 + " = ");
