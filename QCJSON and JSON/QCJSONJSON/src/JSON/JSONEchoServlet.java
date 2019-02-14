@@ -28,9 +28,10 @@ import java.util.HashMap;
 public class JSONEchoServlet extends HttpServlet {
     private ApplicationController theAppController = new ApplicationController();
 
-    public void init(){
+    public void init() {
         theAppController.mapCommand("Speak", new SpeakHandler());
     }
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         try {
@@ -49,6 +50,7 @@ public class JSONEchoServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request,response);
+        doGet(request, response);
     }
+
 }
