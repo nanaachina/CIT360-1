@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="QCJSON" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/../../../../../../../../../../../NetBeans/qcJSON/src/org/quickconnectfamily/json" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../../../../../../../NetBeans/qcJSON/src/org" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

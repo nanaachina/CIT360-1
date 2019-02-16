@@ -27,10 +27,10 @@ public class QC_JSONDemo {
         // Nice Way - Write Object Out To File
 
         System.out.println("This creates an object string:");
-        Guest ben = new Guest("Ben", "Langston", 3493, 40);
+        Guest donald = new Guest("Donald", "Duck", 3493, 40);
 
         try {
-            String jsonString = JSONUtilities.stringify(ben);
+            String jsonString = JSONUtilities.stringify(donald);
             System.out.println(jsonString);
         } catch (JSONException e) {
             System.out.println("Error Creating File");
