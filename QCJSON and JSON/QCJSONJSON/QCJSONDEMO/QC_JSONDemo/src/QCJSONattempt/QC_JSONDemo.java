@@ -9,10 +9,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.HashMap;
-import org.quickconnectfamily.json.JSONException;
-import org.quickconnectfamily.json.JSONInputStream;
-import org.quickconnectfamily.json.JSONOutputStream;
-import org.quickconnectfamily.json.JSONUtilities;
+import quickconnectfamily.JSONException;
+import quickconnectfamily.JSONInputStream;
+import quickconnectfamily.JSONOutputStream;
+import quickconnectfamily.JSONUtilities;
 
 /**
  *

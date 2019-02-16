@@ -21,7 +21,7 @@
  
  
  */
-package org.quickconnectfamily.json;
+package quickconnectfamily;
 
 import java.io.*;
 import java.lang.reflect.Field;
