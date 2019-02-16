@@ -41,12 +41,12 @@ public class Guest implements Serializable {
         this.lastName = lastName;
     }
 
-    public int getEmpId() {
+    public int getguestId() {
         return guestid;
     }
 
-    public void setEmpId(int empId) {
-        this.guestid = empId;
+    public void setguestId(int guestId) {
+        this.guestid = guestId;
     }
 
     public int getAge() {

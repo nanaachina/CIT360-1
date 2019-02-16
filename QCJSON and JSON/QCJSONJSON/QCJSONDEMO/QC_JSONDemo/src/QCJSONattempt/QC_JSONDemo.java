@@ -16,7 +16,7 @@ import org.quickconnectfamily.json.JSONUtilities;
 
 /**
  *
- * @author benjaminlangston
+ * @author seth
  */
 public class QC_JSONDemo {
 
@@ -39,12 +39,12 @@ public class QC_JSONDemo {
         System.out.println("\nThis Writes the object string out to a file:");
         Guest jim = new Guest("Jim", "Langston", 5423, 64);
 
-        File employeeFile = new File("employeeFile.json");
+        File guestFile = new File("guestFile.json");
 
         System.out.println(jim + " has been written to a file.");
 
         try {
-            FileOutputStream fileStream = new FileOutputStream(employeeFile);
+            FileOutputStream fileStream = new FileOutputStream(guestFile);
             JSONOutputStream jsonOut = new JSONOutputStream(fileStream);
             jsonOut.writeObject(jim);
             jsonOut.close();
@@ -56,16 +56,16 @@ public class QC_JSONDemo {
         System.out.println("\nThis reads the object string in from a file:");
 
         try {
-            FileInputStream employeeIn = new FileInputStream(employeeFile);
-            JSONInputStream jsonIn = new JSONInputStream(employeeIn);
+            FileInputStream guestIn = new FileInputStream(guestFile);
+            JSONInputStream jsonIn = new JSONInputStream(guestIn);
             HashMap jsonMap = (HashMap) jsonIn.readObject();
             jsonIn.close();
 
             Guest getInfo = new Guest();
             long age = (long) jsonMap.get("age");
-            long empId = (long) jsonMap.get("empId");
+            long guestId = (long) jsonMap.get("guestId");
             getInfo.setAge((int) age);
-            getInfo.setEmpId((int) empId);
+            getInfo.setguestId((int) guestId);
             getInfo.setFirstName((String) jsonMap.get("firstName"));
             getInfo.setLastName((String) jsonMap.get("lastName"));
 
@@ -76,7 +76,7 @@ public class QC_JSONDemo {
 
         }
 
-        // Error formats - image files -- AKA The nasty path
+        // Error formats - image files
         try {
             FileInputStream fileOut = new FileInputStream("img.jpg");
             JSONInputStream jsonIn = new JSONInputStream(fileOut);
