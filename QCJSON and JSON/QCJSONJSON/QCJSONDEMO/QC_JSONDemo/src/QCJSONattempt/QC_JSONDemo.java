@@ -37,16 +37,16 @@ public class QC_JSONDemo {
         }
 
         System.out.println("\nThis Writes the object string out to a file:");
-        Guest jim = new Guest("Jim", "Langston", 5423, 64);
+        Guest mickey = new Guest("Mickey", "Mouse", 5423, 64);
 
         File guestFile = new File("guestFile.json");
 
-        System.out.println(jim + " has been written to a file.");
+        System.out.println(mickey + " has been written to a file.");
 
         try {
             FileOutputStream fileStream = new FileOutputStream(guestFile);
             JSONOutputStream jsonOut = new JSONOutputStream(fileStream);
-            jsonOut.writeObject(jim);
+            jsonOut.writeObject(mickey);
             jsonOut.close();
         } catch (Exception e) {
             System.out.println("Error Writing File Out");
