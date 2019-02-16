@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e5b5f51-114f-4ba0-9a89-af016ae3552e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Hibernate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hibernate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Hibernate/out/production/ComicBookStore/comicbook/RunHibernateExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hibernate/out/production/ComicBookStore/comicbook/RunHibernateExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Hibernate/out/production/ComicBookStore/comicbook/TestDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Hibernate/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hibernate/src/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCJSONDEMO/QC_JSONDemo/employeeFile.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCJSONDEMO/QC_JSONDemo/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/QCJSONDEMO/QC_JSONDemo/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCJSONDEMO/QC_JSONDemo/src/json/ContainerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCJSONDEMO/QC_JSONDemo/src/json/ContentHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCJSONDEMO/QC_JSONDemo/src/json/JSONException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCJSONDEMO/QC_JSONDemo/src/json/JSONInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCJSONDEMO/QC_JSONDemo/src/json/JSONOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCJSONDEMO/QC_JSONDemo/src/json/JSONParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCJSONDEMO/QC_JSONDemo/src/json/JSONStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCJSONDEMO/QC_JSONDemo/src/json/JSONStreamProtector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCJSONDEMO/QC_JSONDemo/src/json/JSONUtilities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCJSONDEMO/QC_JSONDemo/src/json/ParseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCJSONDEMO/QC_JSONDemo/src/json/Yylex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCJSONDEMO/QC_JSONDemo/src/json/Yytoken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCJSONDEMO/QC_JSONDemo/src/json/package.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +31,7 @@
     <favorites_list name="QCJSONJSON" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -37,10 +50,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-3000" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2965" />
+    <option name="width" value="1879" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -50,7 +63,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -71,12 +83,23 @@
             </path>
             <path>
               <item name="QCJSONJSON" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QCJSONJSON" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="QCJSONdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QCJSONJSON" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="QCJSONJSON" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -118,6 +141,8 @@
       <workItem from="1550104853133" duration="1094000" />
       <workItem from="1550109369635" duration="675000" />
       <workItem from="1550341479676" duration="1137000" />
+      <workItem from="1550356368538" duration="24000" />
+      <workItem from="1550356897507" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="JSON testing and in frustration, turn to intellij">
       <created>1550109799724</created>
@@ -130,7 +155,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3138000" />
+    <option name="totallyTimeSpent" value="3216000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -142,10 +167,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3000" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
+    <frame x="-2965" y="0" width="1879" height="1057" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49953917" visible="true" weight="0.20713525" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49953917" weight="0.21611322" />
       <window_info id="Structure" order="1" sideWeight="0.5004608" side_tool="true" weight="0.20980926" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -215,36 +239,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="JSON testing and in frustration, turn to intellij" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/JSON/TestThing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#773#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JSON/JSONEchoClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#2017#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JSON/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#339#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JSON/TestThing.java" />
+    <entry file="file://$PROJECT_DIR$/src/JSON/JSONEchoClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/JSON/Handler.java" />
     <entry file="file://$PROJECT_DIR$/qcJSON/Java Example/src/com/org/quickconnectfamily/qc_json_example/ExampleApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -252,13 +249,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JSON/JSONEchoServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JSON/JSONEchoServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/JSON/org/quickconnectfamily/json/ContainerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -269,13 +260,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JSON/JSONExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JSON/JSONExample.java" />
     <entry file="file://$PROJECT_DIR$/src/JSON/org/quickconnectfamily/json/package.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -292,21 +277,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JSON/simple/ItemList.java">
+    <entry file="file://$PROJECT_DIR$/src/JSON/simple/ItemList.java" />
+    <entry file="file://$PROJECT_DIR$/src/JSON/ApplicationController.java" />
+    <entry file="file://$PROJECT_DIR$/src/QCJSONdemo/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#0#2536#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JSON/ApplicationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#706#0" expanded="true" />
+            <element signature="e#0#2365#0" expanded="true" />
           </folding>
         </state>
       </provider>

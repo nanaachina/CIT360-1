@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c886ad51-de7d-4e6a-ac3d-926198e43415" name="Default Changelist" comment="update to hibernate">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ComicBookStore/comicbook/RunHibernateExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ComicBookStore/comicbook/RunHibernateExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ComicBookStore/comicbook/TestDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/ContainerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/ContentHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONStreamProtector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONUtilities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/ParseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/Yylex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/Yytoken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/package.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,20 +78,11 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://8cc7410d-8b4f-4ab1-b8c3-c1755ee5e791/schema/test/table/authors">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/comicbook/HibernateUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="105">
               <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -92,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="82" lean-forward="true" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
+            <state relative-caret-position="210">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -285,6 +287,7 @@
       <workItem from="1549978615206" duration="96000" />
       <workItem from="1549983349424" duration="4905000" />
       <workItem from="1550341742515" duration="2470000" />
+      <workItem from="1550356369674" duration="204000" />
     </task>
     <task id="LOCAL-00001" summary="comicbook store hibernate setup">
       <created>1549939143484</created>
@@ -339,13 +342,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11446000" />
+    <option name="totallyTimeSpent" value="11650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3000" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4954683" visible="true" weight="0.2603834" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4954683" visible="true" weight="0.2630458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" sideWeight="0.50453174" side_tool="true" weight="0.25772098" />
@@ -508,16 +511,10 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3d25af64-f99b-4062-aa3a-4ad416a7be3a/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://8cc7410d-8b4f-4ab1-b8c3-c1755ee5e791/schema/test/table/authors">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://8cc7410d-8b4f-4ab1-b8c3-c1755ee5e791/schema/test/table/authors" />
     <entry file="file://$PROJECT_DIR$/src/comicbook/HibernateUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="105">
           <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -527,8 +524,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="82" lean-forward="true" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
+        <state relative-caret-position="210">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
