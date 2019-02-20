@@ -32,22 +32,22 @@ public class PrintGradesTest {
      */
     @Test
     public void testPrint() {
-        System.out.println("\tTest case #1");
+        System.out.println("\tFirst Test Case");
         PrintGrades pg = new PrintGrades();
         String result = pg.print(95);
         assertEquals("Incorrect Message was recieved", "You got an A! Shhh! Be quiet about it, or they might recalculate your score.", result);
         
-        System.out.println("\tTest case #2");
+        System.out.println("\tSecond Test Case");
         pg = new PrintGrades();
         result = pg.print(85);
         assertEquals("Incorrect Message was recieved", "Booyah! You got a B!!", result);
         
-        System.out.println("\tTest case #3");
+        System.out.println("\tThird Test Case");
         pg = new PrintGrades();
         result = pg.print(75);
         assertEquals("Incorrect Message was recieved", "Cs still pass!!!.", result);
         
-        System.out.println("\tTest case #4");
+        System.out.println("\tFourth Test Case");
         pg = new PrintGrades();
         result = pg.print(69);
         assertEquals("Incorrect Message was recieved", "You'll be retaking this class… again.", result);
