@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03b64419-a9e7-4a35-aea7-8147730d941d" name="Default Changelist" comment="updated application controller pattern">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+    <list default="true" id="03b64419-a9e7-4a35-aea7-8147730d941d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/tests/ApplicationControllerPattern/SubtractTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -212,7 +210,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550600287481" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550600455965" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -352,7 +350,7 @@
       <workItem from="1550019035375" duration="1428000" />
       <workItem from="1550080038131" duration="1186000" />
       <workItem from="1550592069377" duration="2351000" />
-      <workItem from="1550599660571" duration="601000" />
+      <workItem from="1550599660571" duration="800000" />
     </task>
     <task id="LOCAL-00001" summary="application control pattern based on the stereotypical calculator&#10;program">
       <created>1550000555737</created>
@@ -382,7 +380,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550600169927</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated application controller pattern">
+      <created>1550600284245</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1550600284245</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added junit testing for application controller pattern">
+      <created>1550600307270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550600307271</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -404,9 +416,12 @@
     <history-entry file="DivideTest - 2019.02.19 at 12h 13m 40s.xml">
       <configuration name="DivideTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ApplicationControllerPattern_in_ApplicationControllerPattern - 2019.02.19 at 12h 14m 58s.xml">
+      <configuration name="ApplicationControllerPattern in ApplicationControllerPattern" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10221000" />
+    <option name="totallyTimeSpent" value="10420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3000" y="0" width="1920" height="1080" extended-state="0" />
@@ -421,7 +436,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299595" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299595" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299595" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -450,7 +465,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="application control pattern based on the stereotypical calculator&#10;program" />
     <MESSAGE value="updated application controller pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated application controller pattern" />
+    <MESSAGE value="added junit testing for application controller pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="added junit testing for application controller pattern" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/AppConPat/AreaCalculator.java" />
@@ -562,7 +578,7 @@
     <entry file="file://$PROJECT_DIR$/tests/ApplicationControllerPattern/SubtractTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
