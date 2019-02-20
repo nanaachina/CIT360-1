@@ -13,13 +13,13 @@ public class PrintGrades {
     public String print(int grade)
     {
         if(grade > 93)
-            return "You got an A!";
+            return "You got an A! Shhh! Be quiet about it, or they might recalculate your score.";
         else if(grade > 83)
-            return "You passed with a B!";
+            return "Booyah! You got a B!!";
         else if(grade >73)
-            return "You are average. C grade for you.";
+            return "Cs still pass!!!.";
         else
-            return "Should have studied your Java better...";
+            return "You'll be retaking this class… again.";
     }
     
 }
