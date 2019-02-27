@@ -38,7 +38,7 @@ public class Application {
             return;
         }
 
-        System.out.println("What's your second number ");
+        System.out.println("What's your second number? ");
         num2 = Integer.parseInt(in.nextLine());
 
         if (num2 == 0 && command.equals("/")){
