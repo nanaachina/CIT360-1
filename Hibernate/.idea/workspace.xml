@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c886ad51-de7d-4e6a-ac3d-926198e43415" name="Default Changelist" comment="update to hibernate">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/ContainerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/ContentHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONStreamProtector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONUtilities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/ParseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/Yylex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/Yytoken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/package.html" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ComicBookStore$RunHibernateExample.ic" NAME="RunHibernateExample Coverage Results" MODIFIED="1549940526067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>java.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/comicbook/HibernateUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="hibernate-configuration-5.2" />
+        <option value="hibernate-main-5.2" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ss</find>
+      <find>authorss</find>
+      <find>Customer</find>
+      <find>java.a</find>
+      <find>author</find>
+      <find>patron</find>
+      <find>testd</find>
+      <find>testdao</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/java/AuthorsEntity.java" />
+        <option value="$PROJECT_DIR$/src/java/ComicbooksEntity.java" />
+        <option value="$USER_HOME$/hibernatetest/src/edu/byui/tuckett/hibernatetest/HibernateUtils.java" />
+        <option value="$PROJECT_DIR$/src/java/HibernateUtils.java" />
+        <option value="$PROJECT_DIR$/src/java/TestDAO.java" />
+        <option value="$PROJECT_DIR$/src/java/RunHibernateExample.java" />
+        <option value="$PROJECT_DIR$/src/comicbook/TestDAO.java" />
+        <option value="$PROJECT_DIR$/src/comicbook/Authors.java" />
+        <option value="$PROJECT_DIR$/src/comicbook/Patrons.java" />
+        <option value="$PROJECT_DIR$/src/comicbook/Patrons.xml" />
+        <option value="$PROJECT_DIR$/src/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/../../../../CIT 381/CIT 381 Miscellaneous/Data Smart - Using Data Science to Transform Information into Insight.txt" />
+        <option value="$PROJECT_DIR$/src/comicbook/AuthorsDAO.java" />
+        <option value="$PROJECT_DIR$/Hibernate.md" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
+        <option value="$PROJECT_DIR$/src/comicbook/HibernateUtils.java" />
+        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-3000" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ComicBookStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComicBookStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComicBookStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="comicbook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComicBookStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="8cc7410d-8b4f-4ab1-b8c3-c1755ee5e791" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550343709461" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GenericSQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="java" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.RunHibernateExample (1)">
+    <configuration name="RunHibernateExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comicbook.RunHibernateExample" />
+      <module name="ComicBookStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comicbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunHibernateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.RunHibernateExample" />
+      <module name="ComicBookStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunHibernateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comicbook.RunHibernateExample" />
+      <module name="ComicBookStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comicbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RunHibernateExample (1)" />
+        <item itemvalue="Application.RunHibernateExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c886ad51-de7d-4e6a-ac3d-926198e43415" name="Default Changelist" comment="" />
+      <created>1549937785558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549937785558</updated>
+      <workItem from="1549937787623" duration="2990000" />
+      <workItem from="1549977295941" duration="985000" />
+      <workItem from="1549978615206" duration="96000" />
+      <workItem from="1549983349424" duration="4905000" />
+      <workItem from="1550341742515" duration="2470000" />
+      <workItem from="1550356369674" duration="204000" />
+    </task>
+    <task id="LOCAL-00001" summary="comicbook store hibernate setup">
+      <created>1549939143484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549939143484</updated>
+    </task>
+    <task id="LOCAL-00002" summary="comicbook store hibernate setup">
+      <created>1549939245223</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549939245224</updated>
+    </task>
+    <task id="LOCAL-00003" summary="comicbook store hibernate setup">
+      <created>1549939374244</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549939374244</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added utilities and run example and testdao">
+      <created>1549940444479</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549940444479</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added utilities and run example and testdao">
+      <created>1549977348897</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1549977348897</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refining hibernate">
+      <created>1549986378689</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549986378689</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated hibernate readme">
+      <created>1549987412437</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1549987412437</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11650000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-3000" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4954683" visible="true" weight="0.2630458" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Persistence" order="3" sideWeight="0.50453174" side_tool="true" weight="0.25772098" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299595" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299595" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.3299595" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3299595" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3299595" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3299595" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" sideWeight="0.50151056" side_tool="true" weight="0.1996805" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" sideWeight="0.49848944" visible="true" weight="0.1996805" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="GfmBrowser" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="comicbook store hibernate setup" />
+    <MESSAGE value="added utilities and run example and testdao" />
+    <MESSAGE value="refining hibernate" />
+    <MESSAGE value="updated hibernate readme" />
+    <MESSAGE value="update to hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to hibernate" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8cc7410d-8b4f-4ab1-b8c3-c1755ee5e791/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ComicBookStore.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/hibernatetest/src/edu/byui/tuckett/hibernatetest/HibernateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="43" lean-forward="true" selection-start-line="5" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#1485#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/hibernatetest/src/edu/byui/tuckett/hibernatetest/TestDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
+          <caret selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/hibernatetest/src/edu/byui/tuckett/hibernatetest/RunHibernateExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8cc7410d-8b4f-4ab1-b8c3-c1755ee5e791/schema/test/table/patrons" />
+    <entry file="file://$PROJECT_DIR$/src/comicbook/Patrons.java" />
+    <entry file="file://$PROJECT_DIR$/src/comicbook/Patrons.xml" />
+    <entry file="file://$PROJECT_DIR$/../../../../CIT 381/CIT 381 Miscellaneous/Data Smart - Using Data Science to Transform Information into Insight.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="3729" lean-forward="true" selection-start-line="3729" selection-end-line="3729" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="415" column="32" lean-forward="true" selection-start-line="415" selection-start-column="32" selection-end-line="415" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comicbook/AuthorsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hibernate.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="180">
+            <caret line="10" column="72" lean-forward="true" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comicbook/RunHibernateExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comicbook/Comicbooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+          <folding>
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3d25af64-f99b-4062-aa3a-4ad416a7be3a/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://8cc7410d-8b4f-4ab1-b8c3-c1755ee5e791/schema/test/table/authors" />
+    <entry file="file://$PROJECT_DIR$/src/comicbook/HibernateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
