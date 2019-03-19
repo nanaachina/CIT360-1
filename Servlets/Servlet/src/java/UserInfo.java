@@ -1,12 +1,12 @@
 public class UserInfo {
 	String givenName;
 	String sirName;
-	long zip;
+	long age;
 	
-	public void setUserInfo(String givenName, String sirName, long zip) {
+	public void setUserInfo(String givenName, String sirName, long age) {
 		this.givenName = givenName;
 		this.sirName = sirName;
-		this.zip = zip;
+		this.age = age;
 	}
 	
 	public String getGivenName() {
@@ -17,7 +17,7 @@ public class UserInfo {
 		return this.sirName;
 	}
 	
-	public long getZip() {
-		return this.zip;
+	public long getAge() {
+		return this.age;
 	}
 }

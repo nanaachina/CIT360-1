@@ -18,12 +18,12 @@ import javax.servlet.http.HttpServletResponse;
  */
 
 
-@WebServlet("/MyServlet")
-public class MyServlet extends HttpServlet {
+@WebServlet("/ServletDemo")
+public class ServletDemo extends HttpServlet {
 
     String givenName;
     String sirName;
-    long zip;
+    long age;
     
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -40,10 +40,10 @@ public class MyServlet extends HttpServlet {
 		
 		givenName = request.getParameter("givenName");
 		sirName = request.getParameter("sirName");
-		zip = Long.parseLong(request.getParameter("zip"));
+		age = Long.parseLong(request.getParameter("age"));
 		
 		UserInfo newUser = new UserInfo();
-		newUser.setUserInfo(givenName, sirName, zip);
+		newUser.setUserInfo(givenName, sirName, age);
 		
 		pw.println("<!DOCTYPE html>"
 				+ "<html>"
@@ -55,9 +55,9 @@ public class MyServlet extends HttpServlet {
 				+ "<body>"
 				+ "<h2>Well done!</h2>"
 				+ "<p>Java Object \"newUser\" created from user data using this servlet."
-				+ "<p>Data below referenced from Java Object.</p>"
-				+ "<h2>Info Entered:</h2>");
-		pw.println("<p>Given Name: " + newUser.getGivenName() + "</p><p>Sir Name: " + newUser.getSirName() + "</p><p>Zip Code: " + newUser.getZip());
+				+ "<p>Information below from given data.</p>"
+				+ "<h2>Your Information:</h2>");
+		pw.println("<p>Given Name: " + newUser.getGivenName() + "</p><p>Sir Name: " + newUser.getSirName() + "</p><p>Your Age: " + newUser.getAge());
 		pw.println("</body>"
 				+ "</html>");
     }
