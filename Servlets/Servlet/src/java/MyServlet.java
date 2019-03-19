@@ -21,8 +21,8 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/MyServlet")
 public class MyServlet extends HttpServlet {
 
-    String firstName;
-    String lastName;
+    String givenName;
+    String sirName;
     long zip;
     
     @Override
@@ -38,12 +38,12 @@ public class MyServlet extends HttpServlet {
         
         		PrintWriter pw = response.getWriter();
 		
-		firstName = request.getParameter("firstName");
-		lastName = request.getParameter("lastName");
+		givenName = request.getParameter("givenName");
+		sirName = request.getParameter("sirName");
 		zip = Long.parseLong(request.getParameter("zip"));
 		
 		UserInfo newUser = new UserInfo();
-		newUser.setUserInfo(firstName, lastName, zip);
+		newUser.setUserInfo(givenName, sirName, zip);
 		
 		pw.println("<!DOCTYPE html>"
 				+ "<html>"
@@ -57,7 +57,7 @@ public class MyServlet extends HttpServlet {
 				+ "<p>Java Object \"newUser\" created from user data using this servlet."
 				+ "<p>Data below referenced from Java Object.</p>"
 				+ "<h2>Info Entered:</h2>");
-		pw.println("<p>First Name: " + newUser.getFirstName() + "</p><p>Last Name: " + newUser.getLastName() + "</p><p>Zip Code: " + newUser.getZip());
+		pw.println("<p>Given Name: " + newUser.getGivenName() + "</p><p>Sir Name: " + newUser.getSirName() + "</p><p>Zip Code: " + newUser.getZip());
 		pw.println("</body>"
 				+ "</html>");
     }

@@ -1,20 +1,20 @@
 public class UserInfo {
-	String firstName;
-	String lastName;
+	String givenName;
+	String sirName;
 	long zip;
 	
-	public void setUserInfo(String firstName, String lastName, long zip) {
-		this.firstName = firstName;
-		this.lastName = lastName;
+	public void setUserInfo(String givenName, String sirName, long zip) {
+		this.givenName = givenName;
+		this.sirName = sirName;
 		this.zip = zip;
 	}
 	
-	public String getFirstName() {
-		return this.firstName;
+	public String getGivenName() {
+		return this.givenName;
 	}
 	
-	public String getLastName() {
-		return this.lastName;
+	public String getSirName() {
+		return this.sirName;
 	}
 	
 	public long getZip() {
