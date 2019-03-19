@@ -1,9 +1,9 @@
-public class UserInfo {
+public class UserData {
 	String givenName;
 	String sirName;
 	long age;
 	
-	public void setUserInfo(String givenName, String sirName, long age) {
+	public void setUserData(String givenName, String sirName, long age) {
 		this.givenName = givenName;
 		this.sirName = sirName;
 		this.age = age;

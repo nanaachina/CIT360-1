@@ -42,8 +42,8 @@ public class ServletDemo extends HttpServlet {
 		sirName = request.getParameter("sirName");
 		age = Long.parseLong(request.getParameter("age"));
 		
-		UserInfo newUser = new UserInfo();
-		newUser.setUserInfo(givenName, sirName, age);
+		UserData newUser = new UserData();
+		newUser.setUserData(givenName, sirName, age);
 		
 		pw.println("<!DOCTYPE html>"
 				+ "<html>"
