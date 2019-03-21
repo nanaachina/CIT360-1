@@ -24,6 +24,7 @@ public class ServletDemo extends HttpServlet {
     String givenName;
     String sirName;
     long age;
+    String color;
     
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -41,9 +42,10 @@ public class ServletDemo extends HttpServlet {
 		givenName = request.getParameter("givenName");
 		sirName = request.getParameter("sirName");
 		age = Long.parseLong(request.getParameter("age"));
-		
+		color = request.getParameter("color");
+
 		UserData newUser = new UserData();
-		newUser.setUserData(givenName, sirName, age);
+		newUser.setUserData(givenName, sirName, age, color);
 		
 		pw.println("<!DOCTYPE html>"
 				+ "<html>"
@@ -54,10 +56,9 @@ public class ServletDemo extends HttpServlet {
 				+ "</head>"
 				+ "<body>"
 				+ "<h2>Well done!</h2>"
-				+ "<p>Java Object \"newUser\" created from user data using this servlet."
 				+ "<p>Information below from given data.</p>"
 				+ "<h2>Your Information:</h2>");
-		pw.println("<p>Given Name: " + newUser.getGivenName() + "</p><p>Sir Name: " + newUser.getSirName() + "</p><p>Your Age: " + newUser.getAge());
+		pw.println("<p>Given Name: " + newUser.getGivenName() + "</p><p>Sir Name: " + newUser.getSirName() + "</p><p>Your Age: " + newUser.getAge() + "</p><p>Your Favorite Color: " + newUser.getColor());
 		pw.println("</body>"
 				+ "</html>");
     }

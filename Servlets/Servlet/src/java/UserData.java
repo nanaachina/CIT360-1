@@ -2,11 +2,13 @@ public class UserData {
 	String givenName;
 	String sirName;
 	long age;
+	String color;
 	
-	public void setUserData(String givenName, String sirName, long age) {
+	public void setUserData(String givenName, String sirName, long age, String color) {
 		this.givenName = givenName;
 		this.sirName = sirName;
 		this.age = age;
+		this.color = color;
 	}
 	
 	public String getGivenName() {
@@ -19,5 +21,8 @@ public class UserData {
 	
 	public long getAge() {
 		return this.age;
+	}
+	public String getColor() {
+		return this.color;
 	}
 }
