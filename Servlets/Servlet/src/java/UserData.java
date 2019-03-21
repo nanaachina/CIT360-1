@@ -4,7 +4,8 @@ public class UserData {
 	long age;
 	String color;
 	
-	public void setUserData(String givenName, String sirName, long age, String color) {
+	public void setUserData(String givenName, String sirName, long age,
+                String color) {
 		this.givenName = givenName;
 		this.sirName = sirName;
 		this.age = age;
