@@ -34,10 +34,9 @@ public class ServletDemo extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        
-        
-        		PrintWriter pw = response.getWriter();
+			throws ServletException, IOException {
+
+				PrintWriter pw = response.getWriter();
 		
 		givenName = request.getParameter("givenName");
 		sirName = request.getParameter("sirName");

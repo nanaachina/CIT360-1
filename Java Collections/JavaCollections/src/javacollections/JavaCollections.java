@@ -52,14 +52,12 @@ public class JavaCollections {
         hmap.put("John Taylor", "1880 - 1887");
         hmap.put("Wilford Woodruff", "1889 - 1898");
         hmap.put("Lorenzo Snow", "1898 - 1901");
-        
+
         System.out.println("The presidents of the Church are: \n");
-        
+
         hmap.forEach((k,v) -> System.out.println("President - " + k 
                 + ", Presided from " + v + "\n"));
-        
-        
-        
+
         // Tree example
         System.out.println("TreeSet Example. Now With Actual Trees!");
         TreeSet baum = new TreeSet();
@@ -76,25 +74,20 @@ public class JavaCollections {
         Object element = list.next();
         System.out.print(element + "\n");
         }
-        
-        
-        
+
         // Queue example
         System.out.println("\nQueue Example. With birds in German, because why not.");
         Queue<String> warteschlange = new LinkedList<>();
-        
+
         warteschlange.add("Huhn");
         warteschlange.add("Hahn");
         warteschlange.add("Taube");
         warteschlange.add("Ente");
         warteschlange.add("Amsel");
-        
+
         warteschlange.forEach(name -> {
            System.out.println(name);
         });
-        
-        
 
     }
-    
 }
