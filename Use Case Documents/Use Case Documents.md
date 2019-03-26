@@ -34,5 +34,5 @@
 | Business Rules:	| 1. No negative numbers <br> 2. No decimals or fractions, integers only. <br> 3. Must use "+" from keyboard and not "➕" symbol	|
 | Notes:	| Be aware the results of division will be rounded to nearest integer	|
 | Author:	| Seth Huntley|
-| Date:	| 2019.02.27 	|
+| Date:	| 2019.03.26 	|
 
