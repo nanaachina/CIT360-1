@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c886ad51-de7d-4e6a-ac3d-926198e43415" name="Default Changelist" comment="update to hibernate">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/nbproject/project.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/ContainerFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/ContentHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONInputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONOutputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONStreamProtector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONUtilities.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/ParseException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/Yylex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/Yytoken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,11 +76,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hibernate.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="210">
+                <caret line="10" column="72" lean-forward="true" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="83" lean-forward="true" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,7 +208,7 @@
     <property name="JPA.DatabaseSchemaImportDialog" value="8cc7410d-8b4f-4ab1-b8c3-c1755ee5e791" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550343709461" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553878076922" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GenericSQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -225,7 +234,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RunHibernateExample (1)">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ComicBookStore" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunHibernateExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comicbook.RunHibernateExample" />
       <module name="ComicBookStore" />
@@ -267,6 +283,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.RunHibernateExample (1)" />
         <item itemvalue="Application.RunHibernateExample" />
       </list>
@@ -288,6 +305,7 @@
       <workItem from="1549983349424" duration="4905000" />
       <workItem from="1550341742515" duration="2470000" />
       <workItem from="1550356369674" duration="204000" />
+      <workItem from="1553867573179" duration="1877000" />
     </task>
     <task id="LOCAL-00001" summary="comicbook store hibernate setup">
       <created>1549939143484</created>
@@ -342,13 +360,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11650000" />
+    <option name="totallyTimeSpent" value="13527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3000" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4954683" visible="true" weight="0.2630458" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4954683" visible="true" weight="0.2657082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" sideWeight="0.50453174" side_tool="true" weight="0.25772098" />
@@ -398,15 +416,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8cc7410d-8b4f-4ab1-b8c3-c1755ee5e791/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ComicBookStore.iml">
       <provider selected="true" editor-type-id="text-editor">
@@ -477,16 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hibernate.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="180">
-            <caret line="10" column="72" lean-forward="true" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/comicbook/RunHibernateExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -526,6 +525,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hibernate.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="210">
+            <caret line="10" column="72" lean-forward="true" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="83" lean-forward="true" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
