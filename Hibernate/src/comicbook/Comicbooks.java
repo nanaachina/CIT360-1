@@ -67,3 +67,4 @@ public class Comicbooks {
         return Objects.hash(id, title, genre, author);
     }
 }
+

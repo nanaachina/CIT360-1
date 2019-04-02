@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c886ad51-de7d-4e6a-ac3d-926198e43415" name="Default Changelist" comment="update to hibernate" />
+    <list default="true" id="c886ad51-de7d-4e6a-ac3d-926198e43415" name="Default Changelist" comment="update to hibernate">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comicbook/Authors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comicbook/Authors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comicbook/AuthorsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comicbook/AuthorsDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comicbook/Comicbooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comicbook/Comicbooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comicbook/HibernateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comicbook/HibernateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comicbook/RunHibernateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comicbook/RunHibernateExample.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/comicbook/HibernateUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+            <state relative-caret-position="510">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,22 +82,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+        <entry file="file://$PROJECT_DIR$/src/comicbook/Comicbooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="780">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+              <folding>
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/comicbook/AuthorsDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Hibernate.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="210">
-                <caret line="10" column="26" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="26" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/comicbook/Authors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -98,11 +118,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="705">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/comicbook/RunHibernateExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -143,16 +172,19 @@
         <option value="$PROJECT_DIR$/src/java/TestDAO.java" />
         <option value="$PROJECT_DIR$/src/java/RunHibernateExample.java" />
         <option value="$PROJECT_DIR$/src/comicbook/TestDAO.java" />
-        <option value="$PROJECT_DIR$/src/comicbook/Authors.java" />
         <option value="$PROJECT_DIR$/src/comicbook/Patrons.java" />
         <option value="$PROJECT_DIR$/src/comicbook/Patrons.xml" />
         <option value="$PROJECT_DIR$/src/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/../../../../CIT 381/CIT 381 Miscellaneous/Data Smart - Using Data Science to Transform Information into Insight.txt" />
-        <option value="$PROJECT_DIR$/src/comicbook/AuthorsDAO.java" />
-        <option value="$PROJECT_DIR$/Hibernate.md" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
-        <option value="$PROJECT_DIR$/src/comicbook/HibernateUtils.java" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/Hibernate.md" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/comicbook/RunHibernateExample.java" />
+        <option value="$PROJECT_DIR$/src/comicbook/HibernateUtils.java" />
+        <option value="$PROJECT_DIR$/src/comicbook/Comicbooks.java" />
+        <option value="$PROJECT_DIR$/src/comicbook/AuthorsDAO.java" />
+        <option value="$PROJECT_DIR$/src/comicbook/Authors.java" />
       </list>
     </option>
   </component>
@@ -206,7 +238,7 @@
     <property name="JPA.DatabaseSchemaImportDialog" value="8cc7410d-8b4f-4ab1-b8c3-c1755ee5e791" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553878076922" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554217863809" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GenericSQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -304,7 +336,7 @@
       <workItem from="1550341742515" duration="2470000" />
       <workItem from="1550356369674" duration="204000" />
       <workItem from="1553867573179" duration="1877000" />
-      <workItem from="1554215573836" duration="1090000" />
+      <workItem from="1554215573836" duration="1383000" />
     </task>
     <task id="LOCAL-00001" summary="comicbook store hibernate setup">
       <created>1549939143484</created>
@@ -359,7 +391,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14617000" />
+    <option name="totallyTimeSpent" value="14910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3000" y="0" width="1920" height="1080" extended-state="0" />
@@ -475,34 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/comicbook/AuthorsDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/comicbook/RunHibernateExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/comicbook/Comicbooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-          <folding>
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -510,13 +514,13 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="das://8cc7410d-8b4f-4ab1-b8c3-c1755ee5e791/schema/test/table/authors" />
-    <entry file="file://$PROJECT_DIR$/src/comicbook/HibernateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/Hibernate.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="210">
+            <caret line="10" column="72" lean-forward="true" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -529,21 +533,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="705">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hibernate.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="210">
-            <caret line="10" column="26" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/comicbook/RunHibernateExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comicbook/HibernateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comicbook/Comicbooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comicbook/AuthorsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comicbook/Authors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
         </state>
       </provider>
     </entry>
