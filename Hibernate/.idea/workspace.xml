@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c886ad51-de7d-4e6a-ac3d-926198e43415" name="Default Changelist" comment="update to hibernate">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comicbook/Authors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comicbook/Authors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comicbook/AuthorsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comicbook/AuthorsDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comicbook/Comicbooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comicbook/Comicbooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comicbook/HibernateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comicbook/HibernateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comicbook/RunHibernateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comicbook/RunHibernateExample.java" afterDir="false" />
-    </list>
+    <list default="true" id="c886ad51-de7d-4e6a-ac3d-926198e43415" name="Default Changelist" comment="update to hibernate" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,8 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/comicbook/Authors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+            <state relative-caret-position="525">
+              <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -188,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-3000" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
@@ -238,7 +231,7 @@
     <property name="JPA.DatabaseSchemaImportDialog" value="8cc7410d-8b4f-4ab1-b8c3-c1755ee5e791" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554217863809" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554218035706" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GenericSQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -336,7 +329,7 @@
       <workItem from="1550341742515" duration="2470000" />
       <workItem from="1550356369674" duration="204000" />
       <workItem from="1553867573179" duration="1877000" />
-      <workItem from="1554215573836" duration="1383000" />
+      <workItem from="1554215573836" duration="1836000" />
     </task>
     <task id="LOCAL-00001" summary="comicbook store hibernate setup">
       <created>1549939143484</created>
@@ -391,10 +384,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14910000" />
+    <option name="totallyTimeSpent" value="15363000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3000" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="-3000" y="-18" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954683" visible="true" weight="0.2683706" />
@@ -581,8 +574,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/comicbook/Authors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+        <state relative-caret-position="525">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
         </state>
       </provider>
     </entry>
