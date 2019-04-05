@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c886ad51-de7d-4e6a-ac3d-926198e43415" name="Default Changelist" comment="update to hibernate">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/nbproject/project.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/ContainerFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/ContentHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONInputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONOutputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONStreamProtector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/JSONUtilities.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/ParseException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/Yylex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/Yytoken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QCJSON and JSON/QCJSONJSON/QCJSONDEMO/QC_JSONDemo/src/json/package.html" beforeDir="false" />
-    </list>
+    <list default="true" id="c886ad51-de7d-4e6a-ac3d-926198e43415" name="Default Changelist" comment="update to hibernate" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,8 +65,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/comicbook/HibernateUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+            <state relative-caret-position="510">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/comicbook/Comicbooks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+              <folding>
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/comicbook/AuthorsDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,10 +100,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+        <entry file="file://$PROJECT_DIR$/src/comicbook/Authors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="525">
+              <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/comicbook/RunHibernateExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -136,20 +165,23 @@
         <option value="$PROJECT_DIR$/src/java/TestDAO.java" />
         <option value="$PROJECT_DIR$/src/java/RunHibernateExample.java" />
         <option value="$PROJECT_DIR$/src/comicbook/TestDAO.java" />
-        <option value="$PROJECT_DIR$/src/comicbook/Authors.java" />
         <option value="$PROJECT_DIR$/src/comicbook/Patrons.java" />
         <option value="$PROJECT_DIR$/src/comicbook/Patrons.xml" />
         <option value="$PROJECT_DIR$/src/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/../../../../CIT 381/CIT 381 Miscellaneous/Data Smart - Using Data Science to Transform Information into Insight.txt" />
-        <option value="$PROJECT_DIR$/src/comicbook/AuthorsDAO.java" />
-        <option value="$PROJECT_DIR$/Hibernate.md" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
-        <option value="$PROJECT_DIR$/src/comicbook/HibernateUtils.java" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/Hibernate.md" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/comicbook/RunHibernateExample.java" />
+        <option value="$PROJECT_DIR$/src/comicbook/HibernateUtils.java" />
+        <option value="$PROJECT_DIR$/src/comicbook/Comicbooks.java" />
+        <option value="$PROJECT_DIR$/src/comicbook/AuthorsDAO.java" />
+        <option value="$PROJECT_DIR$/src/comicbook/Authors.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-3000" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
@@ -162,8 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,6 +222,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,7 +231,7 @@
     <property name="JPA.DatabaseSchemaImportDialog" value="8cc7410d-8b4f-4ab1-b8c3-c1755ee5e791" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550343709461" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554218035706" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GenericSQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -225,7 +257,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RunHibernateExample (1)">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ComicBookStore" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunHibernateExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comicbook.RunHibernateExample" />
       <module name="ComicBookStore" />
@@ -267,6 +306,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.RunHibernateExample (1)" />
         <item itemvalue="Application.RunHibernateExample" />
       </list>
@@ -288,6 +328,8 @@
       <workItem from="1549983349424" duration="4905000" />
       <workItem from="1550341742515" duration="2470000" />
       <workItem from="1550356369674" duration="204000" />
+      <workItem from="1553867573179" duration="1877000" />
+      <workItem from="1554215573836" duration="1836000" />
     </task>
     <task id="LOCAL-00001" summary="comicbook store hibernate setup">
       <created>1549939143484</created>
@@ -342,13 +384,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11650000" />
+    <option name="totallyTimeSpent" value="15363000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3000" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="-3000" y="-18" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4954683" visible="true" weight="0.2630458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954683" visible="true" weight="0.2683706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" sideWeight="0.50453174" side_tool="true" weight="0.25772098" />
@@ -398,15 +440,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8cc7410d-8b4f-4ab1-b8c3-c1755ee5e791/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ComicBookStore.iml">
       <provider selected="true" editor-type-id="text-editor">
@@ -467,44 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/comicbook/AuthorsDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hibernate.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="180">
-            <caret line="10" column="72" lean-forward="true" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/comicbook/RunHibernateExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/comicbook/Comicbooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-          <folding>
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -512,13 +507,13 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="das://8cc7410d-8b4f-4ab1-b8c3-c1755ee5e791/schema/test/table/authors" />
-    <entry file="file://$PROJECT_DIR$/src/comicbook/HibernateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/Hibernate.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="210">
+            <caret line="10" column="72" lean-forward="true" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -526,6 +521,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comicbook/RunHibernateExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comicbook/HibernateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comicbook/Comicbooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comicbook/AuthorsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comicbook/Authors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
         </state>
       </provider>
     </entry>
